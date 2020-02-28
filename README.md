@@ -4,9 +4,12 @@ When trying to execute a JPQL Query that uses `@Lock` on a table created by an `
 
 ## How to reproduce
 
+Tested with Spring Boot 2.2.4.RELEASE and Hibernate 5.4.10
+
 1. run `mvnw.cmd spring-boot:run`
 2. send the http request `GET http://localhost:8080/customers/1`
 3. Check the stacktrace in the logs
+
 
 ## Possible solution
 
